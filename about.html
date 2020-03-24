@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <meta charset="utf-8">
+    <title>Club Info</title>
+    <!-- source w3 schools -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/about.css">
+</head>
+<body>
+  <div class="content">
+    <header>
+        <h1>Club Information</h1>
+    </header>
+        <nav class="topnav" id="myTopnav">
+                <a href="index.html">Home</a>
+                <a href="about.html"  class="active">Club Info</a>
+                <a href="art.html">Training</a>
+                <a href="code.html">About</a>
+                <a href="contact.html">Contact</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                  <i class="fa fa-bars"></i>
+                </a>
+            </nav>
+
+          <gridItems class="gridItems">
+
+          <meeting class="meeting">
+
+            <h2>Meeting Times: <br></h2>
+            <h4>We meet three times a week in Multipurpose Room A <br> on the first floor of the Herbert Wellness Center.</h4>
+
+            <h4>Tuesdays: 7 - 8pm</h4>
+            <h4>Thursdays: 7 - 8pm</h4>
+            <h4>Saturdays: 10:30 - 11:30am</h4>
+
+            <img src="img/seminar2.jpg" alt="me" width="350" height="600">
+            <figcaption>Our on campus seminar held in March of 2019</figcaption>
+          </meeting>
+
+
+          <requirements class="requirements">
+            <h2>Requirements</h2>
+
+            <h4>There is absolutely no previous experience necessary to come and practice with us.
+            Our members come from all walks of life and differ just as much in experiences as they do
+          in rank. </h4>
+
+          <h4>Club dues are $30 a semester for undergraduates and $40 a semester for university faculty. There is no dress
+          code, although loose fitting athletic clothing is preffered. The white Karate uniform or "gi" is provided later.
+        </h4>
+
+          <img src="img/seminar.jpg" alt="me" width="450" height="280">
+
+
+          </requirements>
+
+        </gridItems>
+      </div>
+
+        <script>
+        /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+</body>
+</html>

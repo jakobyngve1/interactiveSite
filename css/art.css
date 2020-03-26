@@ -57,6 +57,10 @@ header {
   grid-area: sidebar;
 }
 
+li{
+  margin: 15px;
+}
+
 .gridItems {
   max-width: 1080px;
   margin: auto;
